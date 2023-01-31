@@ -124,12 +124,10 @@ header p{
     border-radius: 5px;
 }
 
-.sec-three-l h4{
+.sec-three-l h4, .sec-three-l p{
     margin: 0;
 }
-.sec-three-l p{
-    margin: 0;
-}
+
 
 .sec-three-r{
     display: flex;
