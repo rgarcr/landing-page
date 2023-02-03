@@ -6,7 +6,8 @@ body{
     margin: 0;
 }
 header{
-    padding: 25px 150px 100px 150px;
+    /* padding: 25px 150px 100px 150px; */
+    padding: 1.5% 7.5% 6% 7.5%;;
 }
 header, footer{
     background-color: #1f2937;
@@ -15,7 +16,8 @@ header, footer{
 nav{
     display: flex;
     /* justify-content: space-evenly; */
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    margin-bottom: 4%;
 }
 
 nav ul{
@@ -24,7 +26,8 @@ nav ul{
     justify-content: flex-end;
     list-style: none;
     padding: 0;
-    gap:16px
+    /* gap:16px */
+    gap: 1rem;
 }
 
 nav ul a{
@@ -34,7 +37,8 @@ nav ul a{
 
 header > div{
     display: flex;
-    gap: 16px;
+    gap: 1rem;
+    /* gap: 16px; */
     /* justify-content: space-evenly; */
 }
 
@@ -72,6 +76,10 @@ header p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.section-one{
+    padding-bottom: 3%;
 }
 
 .section-one H2{
@@ -113,14 +121,16 @@ header p{
 }
 
 .section-three{
-    padding: 75px 150px;
+    /* padding: 75px 150px; */
+    padding: 3% 0;
 }
 
 .section-three > div{
     width: 80%;
     display: flex;
     justify-content: space-evenly;
-    padding: 40px 0;
+    /* padding: 40px 0; */
+    padding: 2.6% 0;
     border-radius: 5px;
 }
 
