@@ -117,7 +117,6 @@ header p{
     font-style: italic;
     color: #1F2937;
     max-width: 700px;
-    padding: 0 200px;
 }
 
 .section-three{
@@ -169,3 +168,61 @@ footer{
     color:#f9faf8
 }
 
+
+/* Screen size max 480px */
+@media (max-width: 768px) {
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        justify-content: flex-start;
+    }
+
+    header > div{
+        flex-direction: column;
+    }
+    .section-one{
+        padding: 0 2.5% 3% 2.5%;
+
+    }
+    .section-two{
+        padding: 0 7.5%;
+
+    }
+    
+    .section-two p{
+        font-size: 24px;
+    }
+
+    .section-three > div{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .sec-three-l h4{
+        margin: 5px;
+    }
+}
+/* Screen size max 768px */
+@media (max-width: 768px) {
+    
+}
+
+/* Screen size max 1024px */
+@media (max-width: 1024px) {
+    header{
+       padding :1.5% 2.5% 6% 2.5%
+    }
+
+    .square-section{
+        flex-direction: column;
+    }
+}
+
+/* Screen size max 1200px */
+@media (max-width: 1200px) {
+    
+}
